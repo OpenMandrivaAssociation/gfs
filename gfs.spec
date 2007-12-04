@@ -1,7 +1,7 @@
 %define name gfs
 %define version 6.1
 %define pre cvs
-%define release 1mdk
+%define release  %mkrel 1
 
 Summary: gfs The Global File System
 Name: %{name}
