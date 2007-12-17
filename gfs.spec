@@ -11,7 +11,6 @@ Source0: %{name}-%{version}-%pre.tar.bz2
 License: GPL
 Group: System
 #Url: 
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Buildrequires: iddev gfs-kernel
 
 %description
