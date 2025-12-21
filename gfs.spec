@@ -12,6 +12,11 @@ License: GPL
 Group: System
 #Url: 
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 Buildrequires: iddev gfs-kernel
 
 %description
